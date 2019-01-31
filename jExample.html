@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.getJSON demo</title>
+  <style>
+  img {
+    height: 100px;
+    float: left;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<div id="images"></div>
+ 
+<script>
+(function() {
+	var jsonLink = "https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json";
+  $.getJSON(jsonLink)
+  .done(function( json ) {
+    console.log( "JSON Data: " + json.answers.snowA ); //Should this work, it'll read out from the Snow Question from the json file 
+  })
+  .fail(function( jqxhr, textStatus, error ) {
+    var err = textStatus + ", " + error;
+    console.log( "Udonegoofed" );
+});
+})();
+</script>
+ 
+</body>
