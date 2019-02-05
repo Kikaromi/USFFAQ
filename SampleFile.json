@@ -19,6 +19,8 @@
 		"runQ": "Are you running out of questions to write for?",
 		
 		"tenthQ": "So this is Question 10! What are you planning to write for it?"
+		
+		"gradeQ": "jjewewjrew;jrlewkjlewkjlkewjrewkljlkewjfklewjfklewfjeklwf"
 	},
 	
 	"answers": {
@@ -41,5 +43,7 @@
 		"runA": "Yes. Yes I am. I'm trying to finish this by the time class ends and that's obviously not happening. But I tried.",
 		
 		"tenthA": "Not much. Just a 'you have escaped me' and put this on the github."
+		
+		"gradeA":"wqjqwjlqjkklwqjelwqjlkwql"
 	}
 }
