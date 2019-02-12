@@ -20,10 +20,13 @@
 		
 		"tenthQ": "So this is Question 10! What are you planning to write for it?",
 		
-		"gradeQ": "jjewewjrew;jrlewkjlewkjlkewjrewkljlkewjfklewjfklewfjeklwf"
+		"gradeQ": "jjewewjrew;jrlewkjlewkjlkewjrewkljlkewjfklewjfklewfjeklwf",
+		
+		"seniorQ": "Is senior project fun?"
 	},
 	
 	"answers": {
+		"seniorA": "Senior project is fun",
 		"snowA": "The kinds of days that are way too cold that no sane person would want to go outside. You know the kind-- 12 inches of snow, -10 degrees fahrenheit, the works. Makes you almost wish you lived somewhere warmer, but then you'll have heat troubles instead. Gotta love weather that way; never works in the way you wanted it to. But hey, them's the human condition and we just got to deal with whatever our environment gives us. Regardless of how painful it may be.",
 		
 		"skyA": "Technically the sky is blue, but thanks to our friend the sun, the sun can change colors. While it is still ultimately blue to us, light can reflect to make it look reddish or the lack of light can make it practically pitch black. And then there's clouds to block out the true color of the sky and rain on your parade, pun intended.",
@@ -45,5 +48,7 @@
 		"tenthA": "Not much. Just a 'you have escaped me' and put this on the github.",
 		
 		"gradeA":"wqjqwjlqjkklwqjelwqjlkwql"
+		
+		
 	}
 }
