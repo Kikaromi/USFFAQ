@@ -13,18 +13,20 @@
 </head>
 <body>
  
-<div id="images"></div>
+<h2 id="Testing"></h2> 
  
 <script>
 (function() {
 	var jsonLink = "https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json";
   $.getJSON(jsonLink)
   .done(function( json ) {
-    console.log( "JSON Data: " + json.answers.snowA ); //Should this work, it'll read out from the Snow Question from the json file 
+		var headerReplacer = json.questions.kikaromiQ; //This currently reads in just a tagged piece of the .json file. If you want another Q, do json.questions.[/insert tag] or for As, json.answers.[/insert tag]
+		$('#Testing').append('<h2>',headerReplacer.toString(),'</h2>'); //From here it'll add to what's ID'd as 'testing' the currently read json data
+		//console.log( "JSON Data: " + headerReplacer); 
   })
   .fail(function( jqxhr, textStatus, error ) {
     var err = textStatus + ", " + error;
-    console.log( "Udonegoofed" );
+    $("<h2>UDoneGoofed</h2>").appendTo('#Testing'); //If something goofs, you'll see this on the page instead.
 });
 })();
 </script>
