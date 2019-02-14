@@ -10,17 +10,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(function() {
-   $.getJSON('https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json', function(data) {
+	var jsonSource = 'https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json';
+   $.getJSON(jsonSource) 
+   
+  .done (function(data) {	
 		var div = document.getElementById('responses');
 		$.each(data.questions, function(i, f) {
 			div.innerHTML = div.innerHTML + '<div id="QA'+i.substring(0,i.length-1)+'"><div class="q-frame" data-toggle="collapse" data-target="#FRAME'+i.substring(0,i.length-1)+'">'+f+'</div>';
 		});
 		$.each(data.answers, function(i, f) {
 			var element=document.getElementById('QA'+i.substring(0,i.length-1));
-			element.innerHTML=element.innerHTML+'<div id="FRAME'+i.substring(0,i.length-1)+'" class="collapse a-frame">'+f+'+</div></div>';
+			element.innerHTML=element.innerHTML+'<div id="FRAME'+i.substring(0,i.length-1)+'" class="collapse a-frame">'+f+'</div></div>';
 		});
+	
+	}) //end done statement
+	
+	.fail(function(data){
+	alert("Something Goofed.");
+	})  // end fail statement
+	
 	});
-});
 </script>
 <!--<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">-->
 
