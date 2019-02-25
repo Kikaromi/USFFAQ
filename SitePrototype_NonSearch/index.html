@@ -10,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(function() {
-	var jsonSource = 'https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json';
+	var jsonSource = 'https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.jsonn';
    $.getJSON(jsonSource) 
    
   .done (function(data) {	
@@ -26,10 +26,11 @@ $(function() {
 	}) //end done statement
 	
 	.fail(function(data){
-	alert("Something Goofed.");
-	})  // end fail statement
+	var div = document.getElementById('responses');
+	div.innerHTML = div.innerHTML + '<div class="q-frame" id="errorMsg">'+'Something Goofed'+'</div>';
 	
 	});
+});
 </script>
 <!--<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">-->
 
@@ -44,12 +45,7 @@ $(function() {
 
 <br/>
 
-<div class="nav">
-<button class="navbox colorBackgroundDark_GrayDarker"><a href="#">FAQ</a></button>
-<button class="navbox colorBackgroundDark_GrayDarker"><a href="Feedback/">Feedback</a></button>
-</div>
-
-<div id="responses" style="clear:left">
+<div id="responses">
 
 
 
