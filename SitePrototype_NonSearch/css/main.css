@@ -128,6 +128,8 @@ p,a,h1,h2,h3,h4,div{
 	margin-bottom:5pt;
 	padding-top:2px;
 	padding-bottom:2px;
+	top: 0px;
+	position: sticky;
 }
 .navbox{
 	width:49%;
@@ -144,9 +146,11 @@ p,a,h1,h2,h3,h4,div{
 	text-decoration:underline;
 	font-weight:bolder;
 }
-	
-
-
+#errorMsg{
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+}
 
 
 
