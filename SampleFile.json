@@ -28,9 +28,7 @@
 		
 		"kTest2Q": "More Testing", 
 		
-		"kTestt3Q": "If this breaks the json file again...",
-		
-		"errorQ":"Does error handling work?"
+		"kTestt3Q": "If this breaks the json file again..."
 	},
 	
 	"answers": {
@@ -61,9 +59,7 @@
 		
 		"kTest2A": "Yep. Don't mind me.",
 		
-		"kTestt3A": "You can tell me I was a bad boi. Because I would be.",
-		
-		"errorFA":"This shouldnt show up"
+		"kTestt3A": "You can tell me I was a bad boi. Because I would be."
 		
 		
 	}
