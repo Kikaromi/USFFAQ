@@ -109,12 +109,12 @@ p,a,h1,h2,h3,h4,div{
 .a-frame{
 	width:100%;
 	padding: 12px;
-	background-color: #424242;
+	background-color: #cccccc;
 	border-radius:8px;
 	border-color: black;
 	border-width:1px;
 	border-style:solid;
-	color:white;
+	color:saddlebrown;
 }
 
 .nav{
