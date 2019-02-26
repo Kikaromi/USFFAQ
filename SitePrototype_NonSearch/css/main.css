@@ -115,6 +115,7 @@ p,a,h1,h2,h3,h4,div{
 	border-width:1px;
 	border-style:solid;
 	color:saddlebrown;
+	font-weight:bolder;
 }
 
 .nav{
