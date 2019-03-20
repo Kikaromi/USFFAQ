@@ -1,3 +1,5 @@
+
+111 lines (86 sloc) 4.04 KB
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -27,6 +29,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    
+    <script>
+        function SendMail(){
+            var e=document.getElementById('subject')
+            var sub=e.options[e.selectedIndex].value;
+            var msg=document.getElementById('message').value;
+            window.open("mailto:ian@stfrancis.edu?subject="+sub+"&body="+msg);
+        }
+    </script>
+
 </head>
 
   
@@ -37,32 +49,29 @@
             src="https://cdn.glitch.com/51348a2e-e57b-42b8-9ff3-5cf1f2add26b%2FUSF_arch1_REV.png?1550885888012"
             alt="USF Logo" />
     </div>
-    <br />
-
+<br />
   
     <div class="nav">
-            <button class="navbox colorBackgroundDark_GrayDarker" onclick="location.href='page.html #'" type="button"> FAQ</button>
+            <button class="navbox colorBackgroundDark_GrayDarker" onclick="location.href='page.html'" type="button"> FAQ</button>
             <button class="navbox colorBackgroundDark_GrayDarker" onclick="location.href='feedback.html'" type="button"> Feedback</button>
             </div>
 
   
       <!-- Contact form -->
-    <div class="container text-white">
+      <div class="container text-white">
         <form>
-            <div class="form-group">
-       <!--          <label for="name">
-                    Name</label> -->
+        <!--      <div class="form-group">
+               <label for="name">
+                    Name</label> 
               <h3 class="h3">
                 Contact us </h3>
                 <input type="text" class="form-control" id="name" placeholder="Name" required="required" />
-            </div>
+            </div> -->
           
             <div class="form-group">
            <!--       <label for="email">
                     Email Address </label> -->
                 <div class="input-group">
-
-                    <input type="email" class="form-control" id="email" placeholder="E-mail" required="required" />
                 </div>
             </div>
           
@@ -71,8 +80,8 @@
                     Subject </label>   -->
                 <select id="subject" name="subject" class="form-control" required="required">
                     <option value="Subject" selected="">Subject</option>
-                    <option value="General Questions">General Questions</option>
-                    <option value="suggestions">Suggestions</option>
+                    <option value="Application Issues">Application Issues</option>
+                    <option value="Feedback">Feedback</option>
                     <option value="Other">Other</option>
                 </select>
             </div>
@@ -86,8 +95,14 @@
             </div>
 
 
-            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+
+
+            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onclick="SendMail()"> 
                 Send Message</button>
+
+
+
+
         </form>
     </div><br />
 
