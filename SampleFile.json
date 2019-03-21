@@ -1,62 +1,30 @@
 {
 	"questions": {
-		"snowQ": "What Counts as a Snow Day?",
+		"VacationQ": "How many vacation days do I have and when are they applied?",
 		
-		"skyQ": "What color is the sky?",
+		"Vacation2Q": "Do my vacation days’ roll-over if I do not use them all?",
 		
-		"kikaromiQ": "What does Kikaromi mean?",
+		"SickDaysQ": "What happens to my unused vacation days if I discontinue employment at the university? Unused sick days?",
 		
-		"amtQ": "How many questions am I making this?",
+		"IllnessQ": "What happens if I run out of sick days and I become ill?",
 		
-		"longQ": "So which one is the longest question?",
+		"TreatmentQ": "What do I do if I feel I am being treated unfairly by my direct supervisor?",
 		
-		"jobQ": "What is my job on the project?",
-		
-		"realQ":"When in Jennifer getting back with the real questions?",
-		
-		"runQ": "Are you running out of questions to write for?",
-		
-		"tenthQ": "So this is Question 10! What are you planning to write for it?",
-		
-		"gradeQ": "jjewewjrew;j rlewkjlewkjlkewjr ewkljlkewjfklew jfklewfjeklwf",
-		
-		"seniorQ": "Is senior project fun?",
-		
-		"kTestQ": "Don't mind me",
-		
-		"kTest2Q": "More Testing", 
-		
-		"kTestt3Q": "If this breaks the json file again..."
+		"BereavementQ": "Do I receive bereavement days?  How are these considered?"
 	},
 	
 	"answers": {
-		"seniorA": "Senior project is fun",
-		"snowA": "The kinds of days that are way too cold that no sane person would want to go outside. <br> You know the kind-- 12 inches of snow, -10 degrees fahrenheit, the works. Makes you almost wish you lived somewhere warmer, but then you'll have heat troubles instead. Gotta love weather that way; never works in the way you wanted it to. But hey, them's the human condition and we just got to deal with whatever our environment gives us. Regardless of how painful it may be.",
+		"VacationA": "Answer to be determined.",
 		
-		"skyA": "Technically the sky is blue, but thanks to our friend the sun, the sun can change colors. While it is still ultimately blue to us, light can reflect to make it look reddish or the lack of light can make it practically pitch black. And then there's clouds to block out the true color of the sky and rain on your parade, pun intended.",
+		"Vacation2A": "Answer to be determined.",
 		
-		"kikaromiA": "I'd love to say there's a profound meaning to the goofy name I've subjected you all to, but there really isn't. It was a name that I made up back when I was still in grade school and I've used it since then. To me it has a good ring to it and I get sick of people saying 'Alexandria' when it's 'Alexandra'. Kika/Kikaromi works for me.",
+		"SickDaysA": "Answer to be determined.",
 		
-		"amtA": "10 full questions of varying length. And you've got the shortest one here.",
+		"IllnessA": "Answer to be determined.",
 		
-		"longA": "Depends when I run out of rambling nonsense to say per question. As of writing this, I'm just writing what comes into my head and typing it out to fill space. And since we've got to account for possible huge answers as some of the questions Jennifer gives us might be complex, the best way to substitute that is to have a question that seemingly goes on forever. For our sakes, I don't hope every single question ends up as long as some of the ones I'm making in this testing text file, but lord knows what kinds of questions will they want from the policy. So just to be safe, here I am. On the road again. Quoting random songs that come into my head. You could say that You Never Saw It Coming. Persona 5 memes.",
+		"TreatmentA": "Answer to be determined.",
 		
-		"jobA": "At this point, even I'm not all that sure. I may act as the aux coder for whenever one needs me while also doubling as the hard end police chief who says to get X or Y done and keeping communication at a high so nobody is confused waiting for someone else and they aren't responding. But even then, I don't know if that'd work for me. Sorry for being a dead weight OTL",
-		
-		"realA": "As of writing this, I sent her an e-mail ~9 days ago and got a response ~7 days ago and from then it's been silence. I'll be sure to e-mail her again to put on a little pressure so she doesn't take up until late Feburary for us to not work with the actual questions but we'll see how that pans out. For the time being, this should work as a substitute for formatting and the like.",
-				
-		"runA": "Yes. Yes I am. I'm trying to finish this by the time class ends and that's obviously not happening. But I tried.",
-		
-		"tenthA": "Not much. Just a 'you have escaped me' and put this on the github.",
-		
-		"gradeA":"wqjqwjlqjkklwqjelwqjlkwql",
-		
-		"kTestA": "I'm testing things",
-		
-		"kTest2A": "Yep. Don't mind me.",
-		
-		"kTestt3A": "You can tell me I was a bad boi. Because I would be."
-		
-		
+		"BereavementA": "Answer to be determined."
+
 	}
 }
