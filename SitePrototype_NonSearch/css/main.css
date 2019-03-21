@@ -99,7 +99,6 @@ p,a,h1,h2,h3,h4,div{
 	color:white;
 	text-decoration:none;
 	text-align:center;
-	margin: auto;
 }
 
 .q-frame:hover{
@@ -118,7 +117,6 @@ p,a,h1,h2,h3,h4,div{
 	border-style:solid;
 	color:white;
 	font-weight:bolder;
-	margin: auto;
 }
 
 .nav{
