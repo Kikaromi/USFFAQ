@@ -86,7 +86,7 @@ p,a,h1,h2,h3,h4,div{
 }
 
 .q-frame{
-	width:70%;
+	width:970%;
 	padding: 12px;
 	cursor:pointer;
 	background-color: #804d1a;
@@ -131,7 +131,7 @@ p,a,h1,h2,h3,h4,div{
 	padding-top:2px;
 	padding-bottom:2px;
 	top: 0px;
-	position: sticky;
+	position: center;
 }
 .navbox{
 	width:25%;
