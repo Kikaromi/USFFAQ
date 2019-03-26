@@ -99,6 +99,7 @@ p,a,h1,h2,h3,h4,div{
 	color: white;
 	text-decoration:none;
 	text-align:center;
+	position: sticky;
 }
 
 .q-frame:hover{
@@ -118,6 +119,7 @@ p,a,h1,h2,h3,h4,div{
 	color:white;
 	font-weight:bolder;
 	text-align:center;
+	position: sticky;
 }
 
 .nav{
