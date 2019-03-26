@@ -77,16 +77,18 @@ p,a,h1,h2,h3,h4,div{
 	padding:5px;
 	margin-bottom:5px;
 	margin-right:5px;
-	background-color:#804d1a;
+	background-color:#ffcc00;
 	border-radius: 10px;
 	border-style: solid;
 	border-color: black;
 	border-width: 1pt;
-	color:#874312;
+	color:saddlebrown;
 }
 
 .q-frame{
 	width:70%;
+	margin-left:auto;
+	margin-right:auto;
 	padding: 12px;
 	cursor:pointer;
 	background-color: #804d1a;
@@ -99,7 +101,6 @@ p,a,h1,h2,h3,h4,div{
 	color: white;
 	text-decoration:none;
 	text-align:center;
-	position: sticky;
 }
 
 .q-frame:hover{
@@ -110,6 +111,8 @@ p,a,h1,h2,h3,h4,div{
 
 .a-frame{
 	width:70%;
+	margin-left:auto;
+	margin-right:auto;
 	padding: 12px;
 	background-color: #663300;
 	border-radius:8px;
@@ -133,9 +136,13 @@ p,a,h1,h2,h3,h4,div{
 	padding-bottom:2px;
 	top: 0px;
 	position: sticky;
+	width:52%;
+	padding-left:0;
+	padding-right:0;
+
 }
 .navbox{
-	width:25%;
+	width:49%;
 	border:none;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -143,6 +150,10 @@ p,a,h1,h2,h3,h4,div{
 	border-color: black;
 	border-width:1px;
 	border-style:solid;
+	cursor:pointer;
+	padding-left:0;
+	padding-right:0;
+	
 }
 
 .navbox:hover{
