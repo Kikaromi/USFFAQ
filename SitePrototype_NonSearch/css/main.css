@@ -15,11 +15,11 @@
 }
 
 .colorBackgroundDark_Gray{
-	background-color: #663300;
+	background-color: #523200;
 }
 
 .colorBackgroundDark_GrayDarker{
-	background-color: #663300;
+	background-color: #523200;
 }
 
 img{
@@ -37,7 +37,7 @@ input{
 	border-radius:20px;
 	height:1em;
 	border-color:#533200;
-	border-width: bold;
+	border-width: 3;
 	padding: 10px;
 	color: black;
 	font-weight:bold;
@@ -77,30 +77,28 @@ p,a,h1,h2,h3,h4,div{
 	padding:5px;
 	margin-bottom:5px;
 	margin-right:5px;
-	background-color:#ffcc00;
+	background-color:#523200;
 	border-radius: 10px;
 	border-style: solid;
 	border-color: black;
 	border-width: 1pt;
-	color:saddlebrown;
+	color:white;
 }
 
 .q-frame{
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
+	width:90%;
+  margin-left:5%;
 	padding: 12px;
 	cursor:pointer;
-	background-color: #804d1a;
+	background-color: #5a3b0a;
 	margin-bottom: 2px;
 	border-radius:8px;
 	border-color: black;
 	border-width:1px;
 	border-style:solid;
 	font-weight:bold;
-	color: white;
-	text-decoration:none;
-	text-align:center;
+	color:white;
+	text-decoration:none;	
 }
 
 .q-frame:hover{
@@ -110,9 +108,8 @@ p,a,h1,h2,h3,h4,div{
 }
 
 .a-frame{
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
+	width:90%;
+  margin-left:5%;
 	padding: 12px;
 	background-color: #663300;
 	border-radius:8px;
@@ -128,6 +125,9 @@ p,a,h1,h2,h3,h4,div{
 	border-color: black;
 	border-width:2px;
 	border-style:solid;*/
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
 	color:white;
 	font-weight:bold;
 	text-align:center;
@@ -136,24 +136,17 @@ p,a,h1,h2,h3,h4,div{
 	padding-bottom:2px;
 	top: 0px;
 	position: sticky;
-	width:52%;
-	padding-left:0;
-	padding-right:0;
-
 }
 .navbox{
 	width:49%;
 	border:none;
+  background-color: #5a3b0a;
 	padding-top:5px;
 	padding-bottom:5px;
 	border-radius:4px;
 	border-color: black;
 	border-width:1px;
 	border-style:solid;
-	cursor:pointer;
-	padding-left:0;
-	padding-right:0;
-	
 }
 
 .navbox:hover{
@@ -165,7 +158,3 @@ p,a,h1,h2,h3,h4,div{
 	text-decoration: none;
 	font-size: 35px;
 }
-
-
-
-
