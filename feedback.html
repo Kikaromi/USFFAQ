@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>USF FAQ</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+  
+
+  
+</head>
+
+  
+<body class="colorBackgroundDark_Gray">
+
+    <div class="center"><br />
+        <img id="top"
+            src="https://cdn.glitch.com/51348a2e-e57b-42b8-9ff3-5cf1f2add26b%2FUSF_JolietIL_arch_REV.png?1553478659307"
+            alt="USF Logo" />
+    </div>
+    <br />
+
+  
+ <div class="nav">
+<button class="navbox colorBackgroundDark_GrayDarker" style="color:white" onclick="javascript:window.location='index.html'"><a>FAQ</a></button>
+<button class="navbox colorBackgroundDark_GrayDarker" style="color:white" onclick="javascript:window.location='feedback.html'"><a>Feedback</a></button>
+</div>
+
+  
+      <!-- Contact form -->
+    <div class="container text-white">
+        <form>
+        <!--      <div class="form-group">
+               <label for="name">
+                    Name</label> 
+              <h3 class="h3">
+                Contact us </h3>
+                <input type="text" class="form-control" id="name" placeholder="Name" required="required" />
+            </div> -->
+          
+  
+          
+            <div class="form-group">
+           <!--       <label for="subject">
+                    Subject </label>   -->
+                <select id="subject" name="subject" class="form-control" required>
+                   <option value="">Please select subject</option>
+                    <option value="App Issues">App Issues</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+
+            <div class="form-group ">
+                <!--            <label for="name">
+                    Message</label>-->
+                <textarea name="message" id="message" class="form-control" rows="9" cols="25" 
+                    placeholder="Message" required></textarea>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onclick="sendMailFunc()">
+                Send Message</button>
+        </form>
+      
+      <script>
+        function sendMailFunc() {
+        var e=document.getElementById('subject');
+        var sub=e.options[e.selectedIndex].value;
+        var msg=document.getElementById('message').value;
+        window.open("mailto:ascpolicy1@stfrancis.edu?subject="+sub+"&body="+msg,"_top");
+        }
+      </script>
+      
+    </div><br />
+
+    <!-- end of the contract form -->
+
+
+    <footer>
+        <div class="colorBackgroundDark_GrayDarker" style="height:15%; width:100%; margin-bottom:0;">
+            <p class="center">
+                <!--<a href=#top">Back to Top</a><span style="padding:2%">&nbsp;</span>-->
+                <br />
+                <a href="https://myusf.stfrancis.edu/portal/secure/content/15841" style="margin-top: 8px;">View Full
+                    Policy Manual</a>
+            </p>
+            &nbsp;<br />&nbsp;<br />
+        </div>
+    </footer>
+</body>
+
+</html>
