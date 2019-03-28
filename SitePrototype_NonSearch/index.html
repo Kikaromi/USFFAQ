@@ -19,7 +19,8 @@ $(function() {
 	var div = document.getElementById('responses');
 	//var jsonSource = 'https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/SampleFile.json'; 
 	//var jsonSource = 'https://s3.amazonaws.com/usffaq/SampleFile.json'; This was the old call with the goofy answers
-	var jsonSource = 'https://s3.amazonaws.com/usffaq/CleanSampleFile.json'; //This is the real version
+	//var jsonSource = 'https://s3.amazonaws.com/usffaq/CleanSampleFile.json'; //This is the real version
+	var jsonSource='qa.json';
    $.getJSON(jsonSource) 
 
   .done (function(data) {	
