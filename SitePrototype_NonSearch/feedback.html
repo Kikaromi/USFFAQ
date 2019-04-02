@@ -71,13 +71,22 @@
             <div class="form-group">
            <!--       <label for="subject">
                     Subject </label>   -->
-                <select id="subject" name="subject" class="form-control" required="required">
-                    <option value="Subject" selected="">Subject</option>
-                    <option value="General Questions">General Questions</option>
-                    <option value="suggestions">Suggestions</option>
+                <select id="subject" name="subject" class="form-control" required>
+                   <option value="">Please select subject</option>
+                    <option value="App Issues">App Issues</option>
+                    <option value="Feedback">Feedback</option>
                     <option value="Other">Other</option>
                 </select>
             </div>
+		
+	<script>
+        function sendMailFunc() {
+        var e=document.getElementById('subject');
+        var sub=e.options[e.selectedIndex].value;
+        var msg=document.getElementById('message').value;
+        window.open("mailto:ascpolicy1@stfrancis.edu?subject="+sub+"&body="+msg,"_top");
+        }
+      </script>
 
 
             <div class="form-group ">
