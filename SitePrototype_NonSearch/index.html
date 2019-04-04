@@ -29,7 +29,7 @@ $(function() {
 		$.each(data.answers, function(i, f) {
 			var element=document.getElementById('QA'+i.substring(0,i.length-1));
 			if (element){
-				element.innerHTML=element.innerHTML+'<div id="FRAME'+i.substring(0,i.length-1)+'" class="collapse a-frame">'+f+'</div></div>';
+				element.innerHTML=element.innerHTML+'<div class="collapse" id="FRAME'+i.substring(0,i.length-1)+'"><div class=" a-frame">'+f+'</div></div></div>';
 			}
 		});
 	
