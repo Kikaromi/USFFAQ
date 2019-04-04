@@ -114,7 +114,9 @@ p,a,h1,h2,h3,h4,div{
 	width:70%;
 	margin-left:auto;
 	margin-right:auto;
-	padding: 12px;
+	/*padding: 12px;*/
+	padding-left:12px;
+	padding-right:12px;
 	background-color: #deb887;
 	border-radius:8px;
 	border-color: saddlebrown;
