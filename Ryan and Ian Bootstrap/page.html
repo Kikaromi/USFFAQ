@@ -17,7 +17,7 @@
 <body class="colorBackgroundDark_Gray">
 
 <div class="center"><br/>
-<img id="top" src="https://cdn.glitch.com/51348a2e-e57b-42b8-9ff3-5cf1f2add26b%2FUSF_arch1_REV.png?1550885888012" alt="USF Logo"/>
+<img id="top" src="Newlogo.jpg" alt="USF Logo"/>
 </div>
 
 <br>
@@ -63,14 +63,14 @@
     <!--JavaScript -->
      <script>
 
-  var data = 'https://raw.githubusercontent.com/Kikaromi/USFFAQ/master/Ryan%20and%20Ian%20Bootstrap/doc.json';
+  var data = 'doc.json';
 
 $.getJSON(data, function(data) {
   data.items.forEach(function(item, index) {
 
     $('.latestinfo').append(
       '<div class="panel panel-default">' +
-      '<div role="button" class="card-header hover"  id="heading_' + index + '">' +
+      '<div role="button" class="card-header "  id="heading_' + index + '">' +
       '<h4 class="mb-0">' +
       '<div class= "btn btn-link whole" data-toggle="collapse" data-parent="#accordion" href="#collapse_' + index + '" aria-expanded="true" aria-controls="collapse_' + index + '">' +
       item.title +
