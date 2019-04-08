@@ -1,5 +1,5 @@
-# USFFAQ
-Welcome to the USF ASC FAQ Application Unofficial GitHub!
+# The USF ASC Policy FAQ App
+Welcome to the USF ASC FAQ Phone Application Unofficial GitHub!
 
 This GitHub was used to test the Application itself.
 
