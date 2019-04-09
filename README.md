@@ -7,7 +7,7 @@ Once the final product is delivered, it will also act as a file back-up should a
 
 If there are any questions regarding the GitHub, contact the owner, @Kikaromi, within GitHub itself or at kikaromi@gmail.com 
 
-# [THE IAN VERSION IS HERE!](https://github.com/Kikaromi/USFFAQ/tree/IanVersion)     [OTHER THINGS HERE](http://www.google.com/search?q=HELLO%20WORLD)
+# [THE IAN VERSION IS HERE!](https://github.com/Kikaromi/USFFAQ/tree/IanVersion) ----- [OTHER THINGS HERE](http://www.google.com/search?q=HELLO%20WORLD)
 
 ## Versions
 Main Version | Ian Version
