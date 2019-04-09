@@ -1,5 +1,5 @@
 # The USF ASC Policy FAQ App
-<img width="260px" align="right" hspace="10" vspace="5" src="http://www.stfrancis.edu/wp-content/uploads/2016/09/logo_header_new_3.png">
+<img width="260px" align="right" hspace="10" vspace="5" src="https://www.stfrancis.edu/wp-content/uploads/2015/09/USF-PRIMARY-LOGO-300x134.png">
 
 Welcome to the USF ASC FAQ Phone Application ~~Un~~official GitHub!
 
