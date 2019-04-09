@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS and own CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    
+       
+    <title>Senior Project</title>
+
+</head>
+
+<body class="colorBackgroundDark_Gray">
+
+<div class="center"><br/>
+<img id="top" src="Newlogo.jpg" alt="USF Logo"/>
+</div>
+
+<br>
+
+    <div class="nav">
+    <button class="navbox colorBackgroundDark_GrayDarker" onclick="location.href='page.html'" type="button"> FAQ</button>
+    <button class="navbox colorBackgroundDark_GrayDarker" onclick="location.href='feedback.html'" type="button"> Feedback</button>
+    </div>
+
+
+
+<div class="latestinfo panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+</div>
+
+
+<br/>
+<footer>
+
+<div class="toTop">
+<a href="#top">Top</a>
+</div>
+
+<div class="colorBackgroundDark_GrayDarker" style="height:15%; width:100%; margin-bottom:0;">
+<p class="center">
+<!--<a href=#top">Back to Top</a><span style="padding:2%">&nbsp;</span>-->
+<br/>
+<a href="https://myusf.stfrancis.edu/portal/secure/content/15841" style="margin-top: 8px;">View Full Policy Manual</a>
+
+</p>
+
+&nbsp;<br/>&nbsp;<br/>
+</div>
+
+</footer>
+</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+   
+    <!--JavaScript -->
+     <script>
+
+  var data = 'https://s3.amazonaws.com/usffaq/IanVersion/doc.json ';
+
+$.getJSON(data, function(data) {
+  data.items.forEach(function(item, index) {
+
+    $('.latestinfo').append(
+      '<div class="panel panel-default">' +
+      '<div role="button" class="card-header "  id="heading_' + index + '">' +
+      '<h4 class="mb-0">' +
+      '<div class= "btn btn-link whole" data-toggle="collapse" data-parent="#accordion" href="#collapse_' + index + '" aria-expanded="true" aria-controls="collapse_' + index + '">' +
+      item.title +
+      '</div>' +
+      '</h4>' +
+      '</div>' +
+      '<div id="collapse_' + index + '" class="collapse a-frame " role="tabpanel" data-parent="#accordion" aria-labelledby="heading_' + index + '">' +
+      '<div class="panel-body">' + // improves readability with the +, concatenates strings
+      item.content +
+      '</div>' +
+      '</div>' +
+      '</div>'
+    );
+  });
+})
+
+     </script> 
+</html>
+
+
+      
+<!--Making the two data-parent="#accordion" in both is for closing after you open the other one -->
+
