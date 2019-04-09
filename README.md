@@ -1,4 +1,6 @@
 # The USF ASC Policy FAQ App
+<img width="260px" align="right" hspace="10" vspace="5" src="http://www.stfrancis.edu/wp-content/uploads/2016/09/logo_header_new_3.png">
+
 Welcome to the USF ASC FAQ Phone Application ~~Un~~official GitHub!
 
 This GitHub was used to test the Application itself until a __*permanent*__ location for the files itself was chosen and an apk was created.
