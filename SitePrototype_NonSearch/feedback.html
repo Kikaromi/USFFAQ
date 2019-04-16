@@ -75,14 +75,20 @@
                 </select>
             </div>
 		
-	<script>
-        function sendMailFunc() {
+<!-- email sending func-->
+<script>
+      function sendMailFunc() {
+  var name =  document.getElementById('subject').value;
+         var v=document.getElementById('message').value;
+  if (name != "" && v !="") {
         var e=document.getElementById('subject');
         var sub=e.options[e.selectedIndex].value;
         var msg=document.getElementById('message').value;
-        window.open("mailto:alexandrawicks@stfrancis.edu?subject="+sub+"&body="+msg,"_top");
-        }
-      </script>
+        window.open("mailto:xiangweili@stfrancis.edu?subject="+sub+"&body="+msg,"_top");
+  }else {
+  alert("Please fill out this field!")}
+      }
+ </script>
 
 
             <div class="form-group ">
